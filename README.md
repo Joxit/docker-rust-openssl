@@ -2,8 +2,10 @@
 
 ## Supported tags and respective `Dockerfile` links
 
--   [`1.16`, `latest` (1.16/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.16)
--   [`1.16`, `onbuild` (1.16/onbuild/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.16/onbuild)
+-   [`1.17`, `latest` (1.17/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.17)
+-   [`1.17-onbuild`, `onbuild` (1.17/onbuild/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.17/onbuild)
+-   [`1.16` (1.16/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.16)
+-   [`1.16-onbuild` (1.16/onbuild/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.16/onbuild)
 -   [`1.15` (1.15/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.15)
 -   [`1.15-onbuild` (1.15/onbuild/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.15/onbuild)
 -   [`1.14` (1.14/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.14)
@@ -36,17 +38,17 @@ From sources with this command :
 
 ```sh
 git clone https://github.com/Joxit/docker-rust-openssl.git
-docker build -t joxit/rust-openssl docker-rust-openssl/1.16
+docker build -t joxit/rust-openssl docker-rust-openssl/latest
 ```
 
 Or build with the url :
 
 ```sh
-docker build -t joxit/rust-openssl github.com/Joxit/docker-rust-openssl#master:1.16
+docker build -t joxit/rust-openssl github.com/Joxit/docker-rust-openssl#master:latest
 ```
 
 Or pull the image from [docker hub](https://hub.docker.com/r/joxit/rust-openssl/) :
 
 ```sh
-docker pull joxit/rust-openssl:1.16
+docker pull joxit/rust-openssl:latest
 ```
