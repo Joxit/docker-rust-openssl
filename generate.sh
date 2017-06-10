@@ -21,7 +21,9 @@ rm -f latest
 ln -s ${docker_version} latest
 git add latest
 url_list="$(echo ${url_list} | head -c -3)"
-cat template/README.md
-  | sed "s?\${url_list}?${url_list}?"
-  | sed "s?\`${docker_version}-onbuild\`?\`${docker_version}-onbuild\`, \`onbuild\`?"
+cat template/README.md \
+  | sed "s?\${url_list}?${url_list}?" \
+  | sed "s?\`${docker_version}-onbuild\`?\`${docker_version}-onbuild\`, \`onbuild\`?" \
   | sed "s?\`${docker_version}\`?\`${docker_version}\`, \`latest\`?" > README.md
+
+git add README.md versions.csv
