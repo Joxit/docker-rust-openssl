@@ -17,7 +17,7 @@ LABEL maintainer "Jones Magloire @Joxit"
 
 WORKDIR /opt/rust
 
-ENV RUST_ARCHIVE=rust-1.21.0-x86_64-unknown-linux-gnu.tar.gz
+ENV RUST_ARCHIVE=rust-1.21.1-x86_64-unknown-linux-gnu.tar.gz
 ENV RUST_DOWNLOAD_URL=https://static.rust-lang.org/dist/$RUST_ARCHIVE
 
 RUN apt-get update \
