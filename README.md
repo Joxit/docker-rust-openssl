@@ -2,8 +2,10 @@
 
 ## Supported tags and respective `Dockerfile` links
 
--   [`1.24`, `latest` (1.24/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.24)
--   [`1.24-onbuild`, `onbuild` (1.24/onbuild/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.24/onbuild)
+-   [`1.25`, `latest` (1.25/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.25)
+-   [`1.25-onbuild`, `onbuild` (1.25/onbuild/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.25/onbuild)
+-   [`1.24` (1.24/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.24)
+-   [`1.24-onbuild` (1.24/onbuild/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.24/onbuild)
 -   [`1.23` (1.23/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.23)
 -   [`1.23-onbuild` (1.23/onbuild/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.23/onbuild)
 -   [`1.22` (1.22/Dockerfile)](https://github.com/Joxit/docker-rust-openssl/tree/master/1.22)
