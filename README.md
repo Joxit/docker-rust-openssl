@@ -1,4 +1,14 @@
-# docker-rust-openssl
+# [deprecated] docker-rust-openssl
+
+> This repository is no longer maintained (since 2018). This project has been created some months before the release of the official rust docker image. The official image is now available via `docker pull rust`, get more informations about the image on [docker hub](https://hub.docker.com/_/rust).
+>
+> As an alternative you may use:
+>
+> ```dockerfile
+> FROM rust
+> RUN apt-get update \
+>     && apt-get install -y --no-install-recommends ca-certificates gcc libssl-dev
+> ```
 
 ## Supported tags and respective `Dockerfile` links
 
